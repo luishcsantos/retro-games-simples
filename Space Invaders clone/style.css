@@ -1,0 +1,29 @@
+body {
+            background-color: #000;
+            color: #fff;
+            font-family: 'Press Start 2P', monospace; /* Fonte estilo arcade */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        h1 {
+            color: #4caf50; /* Verde clássico */
+            text-shadow: 2px 2px #ff0000; /* Sombra para efeito retrô */
+        }
+        canvas {
+            background-color: #111;
+            border: 2px solid #4caf50;
+        }
+        p {
+            font-size: 1rem;
+            margin-top: 20px;
+        }
+        b {
+            color: #ffff00;
+        }
+        /* Importa uma fonte estilo pixel art do Google Fonts */
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
